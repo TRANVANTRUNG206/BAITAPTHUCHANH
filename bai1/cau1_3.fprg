@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau1_3"/>
+        <attribute name="authors" value="Dieu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-03 03:54:42 SA"/>
+        <attribute name="created" value="RGlldTtERVNLVE9QLUY1U0JETDM7MjAyNS0xMi0wMzswMzo1MDo1NCBTQTsyNzA4"/>
+        <attribute name="edited" value="RGlldTtERVNLVE9QLUY1U0JETDM7MjAyNS0xMi0wMzswMzo1NDo0MiBTQTsxOzI4MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;H&#7884; T&#202;N : TRAN VAN TRUNG, MSV: 245752021610133&quot;" newline="True"/>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;nhap ban k&#237;nh : &quot;" newline="True"/>
+            <input variable="x"/>
+            <output expression="&quot; DIEN TICH HINH TRON LA : &quot; &amp;circle(x)" newline="True"/>
+        </body>
+    </function>
+    <function name="circle" type="Real" variable="area">
+        <parameters>
+            <parameter name="radius" type="Real" array="False"/>
+        </parameters>
+        <body>
+            <declare name="area" type="Real" array="False" size=""/>
+            <assign variable="area" expression="pi*radius^2"/>
+        </body>
+    </function>
+</flowgorithm>

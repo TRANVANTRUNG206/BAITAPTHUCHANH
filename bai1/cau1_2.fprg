@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="cau1_2"/>
+        <attribute name="authors" value="Dieu"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2025-12-03 03:36:27 SA"/>
+        <attribute name="created" value="RGlldTtERVNLVE9QLUY1U0JETDM7MjAyNS0xMi0wMTsxMDo1MTozMyBDSDsyNjkz"/>
+        <attribute name="edited" value="RGlldTtERVNLVE9QLUY1U0JETDM7MjAyNS0xMi0wMzswMzozNjoyNyBTQTszOzI4MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;H&#7885; t&#234;n: TRAN VAN TRUNG; MSSV: 245752021610133&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;1 chai&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot;chai&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
